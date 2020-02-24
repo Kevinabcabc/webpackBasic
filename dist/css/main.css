@@ -1,0 +1,10 @@
+body{
+    color: yellow;
+}
+body {
+    background-color: red;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    background: url(http://www.baidu.com/e43a974ed74badf9582d3ef1e4b54cbe.jpg);
+} 

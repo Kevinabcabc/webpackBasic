@@ -1,0 +1,34 @@
+node js 编写
+es6语法
+
+@babel/plugin-transform-runtime 用于转高级语法 peomise generator 
+
+
+expose-loader 暴露全局的loader  内连的loader
+
+
+loader 的类型
+
+pre 前执行的loader
+normal 普通的loader
+内连的loader
+后置postloader
+
+
+引入第三方模块：
+expose-loader 暴露到window
+ProvidePlugin 给每个模块提供一个
+引入不打包
+
+
+===webpack打包图片
+
+1js创建图片引入
+2css backgrund
+file-loader 默生成图片到dist 并把图片生成到名字返回回来
+
+图片loader 
+ file-loader
+ url-loader // 可以做限制 
+  html-withimg-loader  在html里面引入
+ 
